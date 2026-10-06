@@ -59,5 +59,5 @@ collision silently zeroed a poll counter here).
 - [x] Phase 5: accelerator AXI4-Lite wrapper (IP integration)
 - [x] Phase 6: end-to-end layer compute over AXI vs reference + under stalls
 - [ ] Phase 3: UART slave (console)
-- [ ] Phase 4: IMEM/DMEM as AXI slaves + run a program from the core
+- [x] Phase 4: CPU runs bare-metal C that drives the accelerator over AXI
 - [ ] Phase 7: FPGA synthesis + timing + PPA numbers
